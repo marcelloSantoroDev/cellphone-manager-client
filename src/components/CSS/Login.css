@@ -1,0 +1,31 @@
+.login-container {
+    border: solid 3px;
+    width: 25%;
+    margin: auto;
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding: 10%;
+}
+
+.form-container {
+    border: solid 3px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+
+}
+
+.form-container, input {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+.form-container, button {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}

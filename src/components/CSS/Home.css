@@ -1,0 +1,33 @@
+.home-container {
+    border: solid;
+    width: 30%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10%;
+    padding: 5%;
+}
+
+.link {
+    cursor: pointer;
+    border: 1px solid;
+    padding: 0.5%;
+    border-radius: 2px;
+    width: 20%;
+    display: flex;
+    margin: auto;
+    margin-top: 1%;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.link:hover {
+    background-color: rgb(105, 0, 105);
+    color: bisque;
+}
+
+.link-container {
+    display: flex;
+    flex-direction: column;
+}

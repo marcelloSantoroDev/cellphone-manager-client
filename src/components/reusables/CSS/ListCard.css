@@ -1,0 +1,31 @@
+.card-container {
+    border: solid;
+    width: 25%;
+    margin: auto;
+    margin-bottom: 1%;
+    text-align: center;
+}
+
+.remove-button {
+    margin-bottom: 1%;
+    width: 20%;
+}
+
+.edit-button {
+    margin-bottom: 1%;
+    width: 20%;
+}
+
+.details-button {
+    margin-bottom: 1%;
+    width: 20%;
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+}

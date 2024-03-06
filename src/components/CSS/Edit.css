@@ -1,0 +1,25 @@
+.edit-product-container {
+    border: solid ;
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    margin: auto;
+    margin-top: 10%;
+    padding: 5%;
+}
+
+.edit-product-form {
+    border: solid ;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 25%;
+    margin: auto;
+    padding: 5%;
+}
+
+.edit-product-form input {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 2%;
+}
