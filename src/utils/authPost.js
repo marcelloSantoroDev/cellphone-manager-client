@@ -9,6 +9,8 @@ const authPost = async (token) => {
             {},
             {
                 headers: {
+                    'Access-Control-Allow-Origin':'*',
+                    'Content-Type':'application/json',
                     Authorization: token
                 },
             }

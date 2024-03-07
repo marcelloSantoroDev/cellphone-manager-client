@@ -19,7 +19,6 @@ function Signup() {
         e.preventDefault();
         const {name, email, password} = userSignup;
         const data = await signupPost(name, email, password);
-        console.log(data);
         if (typeof data === 'string') {
             alert(data);
         }else{

@@ -20,7 +20,6 @@ function Login() {
         e.preventDefault()
         const {email, password} = userLogin;
         const data = await loginPost(email, password);
-        console.log(data);
         if (typeof data === 'string') {
             alert(data);
           }else{
