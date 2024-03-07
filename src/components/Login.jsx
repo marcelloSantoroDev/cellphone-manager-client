@@ -29,6 +29,14 @@ function Login() {
         }
     }
 
+    const handleLoginTester1 = () => {
+        setUserLogin({email: 'alex@gmail.com', password: '123456'})
+    }
+
+    const handleLoginTester2 = () => {
+        setUserLogin({email: 'mario@gmail.com', password: '123456'})
+    }
+
     useEffect(() => {
         setUserLogin({email: '', password: ''});
     },[setUserLogin])
@@ -37,6 +45,10 @@ function Login() {
   return (
     <>
     <div className='login-container'>
+      <div className='default-login-container'>
+        <button onClick={handleLoginTester1}>Log in tester 1</button>
+        <button onClick={handleLoginTester2}>Log in tester 2</button>
+      </div>
         <form className='form-container' action="">
             <input
             name='email'
@@ -54,7 +66,7 @@ function Login() {
             placeholder='Password'
             onChange={handleChange}
             />
-            <button onClick={handleClick}>Login</button>
+            <button onClick={handleClick}>Log in</button>
             <p>Don't have an account?  <Link className="sign-up-link" to="/signup">Sign up</Link></p>
         </form>
     </div>

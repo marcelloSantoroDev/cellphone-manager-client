@@ -4,9 +4,23 @@
     margin: auto;
     margin-top: 10%;
     display: flex;
+    flex-direction: column;
     align-items: center;
     align-content: center;
-    padding: 10%;
+    padding: 8%;
+}
+
+.default-login-container button {
+    width: 50%;
+    margin-bottom: 2% ;
+}
+
+.default-login-container {
+    padding: 1px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
 }
 
 .form-container {

@@ -47,6 +47,7 @@ function AppProvider ({ children }) {
     },[])
 
 
+
     const values = useMemo(() => ({
         addProduct,
         setAddProduct,
@@ -59,7 +60,8 @@ function AppProvider ({ children }) {
         userSignup,
         setUserSignup,
         editDetails,
-        setEditDetails
+        setEditDetails,
+
     }),[addProduct, productsList, editProduct, userLogin, userSignup, editDetails]);
 
     return (

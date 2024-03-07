@@ -29,6 +29,14 @@ function Signup() {
     
     }
 
+    const handleSignupTester1 = () => {
+        setUserSignup({name: 'Alex', email: 'alex@gmail.com', password: '123456'});
+    }
+
+        const handleSignupTester2 = () => {
+        setUserSignup({name: 'Mário', email: 'mario@gmail.com', password: '123456'});
+    }
+
     useEffect(() => {
         setUserSignup({name: '', email: '', password: ''});
     },[setUserSignup])
@@ -37,6 +45,10 @@ function Signup() {
     return (
         <>
         <div className='signup-container'>
+            <div className='default-signup-container'>
+            <button onClick={handleSignupTester1} >Sign up tester 1</button>
+            <button onClick={handleSignupTester2}>Sign up tester 2</button>
+            </div>
             <form className='form-container' action="">
                 <input
                 name='name'
