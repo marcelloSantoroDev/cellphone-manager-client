@@ -1,8 +1,10 @@
 import axios from "axios";
 
+const URL = process.env.REACT_APP_API_URL;
+
 const detailsDelete = async (index, id) => {
     try {
-        const { data } = await axios.delete(`http://localhost:3001/products/details/${id}`, { data: { index } });
+        const { data } = await axios.delete(`${URL}/products/details/${id}`, { data: { index } });
         return data;
     } catch (error) {
         return error.response.data;

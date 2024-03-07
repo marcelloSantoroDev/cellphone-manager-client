@@ -1,9 +1,11 @@
 import axios from "axios";
 
+const URL = process.env.REACT_APP_API_URL;
+
 const authPost = async (token) => {
     try {
         const { data } = await axios.post(
-            "http://localhost:3001/auth",
+            `${URL}/auth`,
             {},
             {
                 headers: {
